@@ -35,11 +35,25 @@ func main() {
 		return a + 5
 	}
 
+	//WHAT THE HELL MATTHEW YOU JUST DEFINED MYSTERY TO DO SOMETHING ELSE
+	//FUCKING WATCH ME
+	//JK so each variable can have its own definition of the 'mystery()' function
+	//so 'fun' and 'funner' can have their own definition of the function
+	//its kinda a form of overloading/polymorphism if you know what that is, if not its totally cool
+
 	fmt.Println(funner(5))
 
+	//and it worked, amazing right?
+
+	//the other one is a little more basic so you get the gist
+	//just make a new function kinda like bellow, asign it to a variable and pass it into the other function
 	passie := func(b int) int {
 		return b / 2
 	}
 
+	//done as so right here
+	//prett easy just a cool mechanic
 	passer(passie)
+
+	//well that was cool and I hope y'all liked it
 }
